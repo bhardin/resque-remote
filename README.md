@@ -6,7 +6,7 @@ Resque Remote's simple goal is to allow you to add a job to a queue with a strin
 
 # Installation
 
-**NOTE: Resque-remote is compatible with Resque 1.x but unnececssary for >= 2.x. If you are using Resque 2.x, use the standard API method Resque.push instead.**
+**NOTE: Resque-remote is compatible with Resque 1.x but unnecessary for >= 2.x. If you are using Resque 2.x, use the standard API method Resque.push instead.**
 
 Install the gem ad-hoc:
 
