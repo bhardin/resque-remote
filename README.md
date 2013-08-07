@@ -43,7 +43,7 @@ To dequeue, call `remote_dequeue` instead:
 
 Resque Remotes purpose is to make remote job processing doable. Hence, your workers won't be running the same application code that actually queued the job for you in the first place. So, assuming I queued the jobs from above, your separate application should have an implementing class that your workers have access to.
 
-Note that the queue this job belongs to isn't defined in our job class because it's metadata that Resque uses when it first queues the job, which we've already done. So, no `@queue = :low_priority` needed here.
+Note that the queue this job belongs to isn't defined in our job class because it's metadata that Resque uses when it first queues the job, which we've already done. So, no `@queue = :ticker_low` needed here.
 
 	class UpdateStockTicker
 		# no queue needed
